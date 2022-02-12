@@ -156,6 +156,7 @@ final class UDPMessageEncoder {
           case "sql.user":
             sqlUser = entry.getValue();
             continue;
+          case "sql.query":
           case "sql.sanitized_query":
             sqlSanitizedQuery = entry.getValue();
             continue;
